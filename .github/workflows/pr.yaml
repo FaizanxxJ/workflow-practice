@@ -15,3 +15,8 @@ jobs:
        run: echo "Welcome to the Github actions" 
      - name: secondstep
        run: echo "this is second step"
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Job2 step1
+        run: echo "this is step 1 of JOB2"
